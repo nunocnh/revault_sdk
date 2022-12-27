@@ -1,0 +1,11 @@
+framework module revault {
+  umbrella header "revault.h"
+
+  export *
+  module * { export * }
+}
+
+module revault.Swift {
+  header "revault-Swift.h"
+  requires objc
+}

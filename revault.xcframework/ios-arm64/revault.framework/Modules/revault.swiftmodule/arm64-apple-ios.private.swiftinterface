@@ -1,0 +1,93 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name revault
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import MetricKit
+import StoreKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_exported import revault
+public struct Feedback : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Configuration {
+  public var clientID: Swift.String
+  public var clientSecret: Swift.String
+  public var appID: Swift.String
+  public var scope: Swift.String
+  public var debug: Swift.Bool
+  public init(clientID: Swift.String, clientSecret: Swift.String, appID: Swift.String, scope: Swift.String, debug: Swift.Bool)
+}
+public struct Authorization : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+@objc final public class RevaultSDK : ObjectiveC.NSObject {
+  final public var configuration: revault.Configuration {
+    get
+  }
+  public static var auhtorizationData: revault.Authorization?
+  public static var debug: Swift.Bool
+  public init(with configuration: revault.Configuration, completion: @escaping (_ error: Swift.Error?) -> Swift.Void)
+  @objc deinit
+}
+public struct StageConfiguration : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public class StoreFeedbackManager {
+  public static let shared: revault.StoreFeedbackManager
+  public var lastFeedbackDate: Foundation.Date? {
+    get
+  }
+  public var lastFeedbackVersion: Swift.String? {
+    get
+  }
+  public var shouldAskForFeedback: Swift.Bool
+  public var canAskForFeedback: Swift.Bool
+  public init()
+  public func start(on viewController: UIKit.UIViewController, configuration: revault.StoreFeedbackConfiguration, completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func askFeedback()
+  public func send(feedback: revault.Feedback, completion: @escaping (revault.Feedback?, Swift.Error?) -> Swift.Void)
+  @objc deinit
+}
+public enum StoreFeedbackStep {
+  case ask
+  case more
+  case close
+  public static func == (a: revault.StoreFeedbackStep, b: revault.StoreFeedbackStep) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct StoreFeedbackConfiguration {
+  public var stage: Swift.String
+  public var stepConfiguration: [revault.StoreFeedBackItem]!
+  public init(stage: Swift.String)
+}
+public struct StoreFeedBackItem {
+  public var step: revault.StoreFeedbackStep
+  public var imageName: Swift.String?
+  public var message: Swift.String?
+  public var cta: Swift.String?
+  public init(step: revault.StoreFeedbackStep, imageName: Swift.String? = nil, message: Swift.String? = nil, cta: Swift.String? = nil)
+}
+public struct AppMetaData : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct CrashMetaData : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Crash : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension revault.StoreFeedbackStep : Swift.Equatable {}
+extension revault.StoreFeedbackStep : Swift.Hashable {}
