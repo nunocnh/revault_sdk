@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		jJTm3rpFqwzqFgyNm1zhrB7ez0E=
+		/F11/LtfUX0FkzDYRswYko11Otk=
 		</data>
 		<key>Headers/revault-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		I7YvoVFq3RPV1ghW5+7Z9ReQyB4=
+		/5ORTQ/oKKV7rhsA0XoDNfBiSKE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -26,43 +26,43 @@
 		</data>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tQZi4/qDe2HkAqNEk+hP9sDAeW8=
+		VSeeVIlcVIuVuInG47jhoVlYd/I=
 		</data>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HMoTQcvDQw2SIGRRzBeagJS/5HI=
+		FerR4thepbHyXR+02SlNucIG2nY=
 		</data>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		LMajJv6LcKiBILx0tD7CzPPfhTo=
+		siUVyLqoCQ9fzG+mhgEjV9huCik=
 		</data>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HMoTQcvDQw2SIGRRzBeagJS/5HI=
+		FerR4thepbHyXR+02SlNucIG2nY=
 		</data>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SIfxMrcQ9WC0d7ZO8byGl8SYJvk=
+		LbxMs18DZkdFjbC8z9Mw+VxgHNI=
 		</data>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tQZi4/qDe2HkAqNEk+hP9sDAeW8=
+		VSeeVIlcVIuVuInG47jhoVlYd/I=
 		</data>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		P8mADQcmnKQCANEX9egUB5d9NyQ=
+		QtX2iOr4uL/EucqUaZtFl+AHBNQ=
 		</data>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fg6i+FvJVeFQEFOBL7YOfuJalXU=
+		C1Hop7babEfXPo04p2kvS2Txna8=
 		</data>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		P8mADQcmnKQCANEX9egUB5d9NyQ=
+		QtX2iOr4uL/EucqUaZtFl+AHBNQ=
 		</data>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rLIpIi3hD1FWfplepugPzc7Kv1s=
+		WLOLoUxiWGpxp+14HExK82SQ6R8=
 		</data>
 		<key>StoreFeedbackAskView.nib</key>
 		<data>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x2egleWCHvoF4RQlywNAKrYi3MUGKBo7GemCta9TfuI=
+			ArVn/K1gdSaTNgpAycuZUrtb7CLghrqaCf+dJRJFRCY=
 			</data>
 		</dict>
 		<key>Headers/revault-Swift.h</key>
@@ -124,70 +124,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yy68dtCxB51KChAB9IW9LUimZrKktFpDZBAutY8LyOw=
+			2gSozZk2z344HEnoCcJPZ6w+oLY22M8DzTIYifc3pcM=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A62qA0fgm/Ug1hxkD5vvx7AhPEdD8HAPeG0xtO+F2gA=
+			nWu9j7q8HA4uGLl1NW6vw+cL0q0EnyoEYZnrqFSqUms=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b1hppmWXRn7mSpOy4GQumBlpZQXLlroQp/by6I6Mxdk=
+			MFLwMg5JaNQ5gc2OH+JXMfOFnBPofhwIQ6pQTBmExwo=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A62qA0fgm/Ug1hxkD5vvx7AhPEdD8HAPeG0xtO+F2gA=
+			nWu9j7q8HA4uGLl1NW6vw+cL0q0EnyoEYZnrqFSqUms=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3Zrcni4lRgG6m3tGgKn0CDg4VHcV+4ae4qt9NrUnWM=
+			v0R4KF/YfXs2PHDW3QdcIi9l2juTtrb87fDcXGDg3r0=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yy68dtCxB51KChAB9IW9LUimZrKktFpDZBAutY8LyOw=
+			2gSozZk2z344HEnoCcJPZ6w+oLY22M8DzTIYifc3pcM=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3cQBKX8eKySwHCvXVvpdveK1tfoqt2rXR2Xn1rtWbSA=
+			gfR3EWU7fiFqDJIYqwTvJPw9qgXQ7qh2fdmmrSP+OF8=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			suLmmS+eKcEgxLQZAa9WQHcrkcElj6XIfxpkMvAcBGE=
+			A+usPUI/nsax7wEo95mA0xTD3+ZArgtgXrIEnHEOuC8=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3cQBKX8eKySwHCvXVvpdveK1tfoqt2rXR2Xn1rtWbSA=
+			gfR3EWU7fiFqDJIYqwTvJPw9qgXQ7qh2fdmmrSP+OF8=
 			</data>
 		</dict>
 		<key>Modules/revault.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VqAa7h9pdT5C2IZtk713ANXeMaBRVoYbiNVLXs1M6gc=
+			XfY+xI4c0nHzGUFMsnomzcHPBPMul0vdpYeQ1DOooLQ=
 			</data>
 		</dict>
 		<key>StoreFeedbackAskView.nib</key>

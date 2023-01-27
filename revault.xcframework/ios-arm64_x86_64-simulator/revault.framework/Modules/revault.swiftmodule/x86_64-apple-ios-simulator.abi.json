@@ -3174,294 +3174,294 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Configuration\/RevaultConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Configuration\/RevaultConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 282,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackQuestionView.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackQuestionView.swift",
       "kind": "BooleanLiteral",
       "offset": 359,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 126,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 6,
       "value": "\"http\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 126,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 6,
       "value": "\"http\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 11,
       "value": "\"localhost\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 27,
       "value": "\"revault-api.herokuapp.com\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 11,
       "value": "\"localhost\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 27,
       "value": "\"revault-api.herokuapp.com\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/Authorization.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/Authorization.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 7,
       "value": "\"scope\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/Authorization.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/Authorization.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 5,
       "value": "\"app\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/Authorization.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/Authorization.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 7,
       "value": "\"scope\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/Authorization.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/Authorization.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 5,
       "value": "\"app\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/RevaultSDK.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/RevaultSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 220,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/RevaultSDK.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/RevaultSDK.swift",
       "kind": "StringLiteral",
       "offset": 38,
       "length": 10,
       "value": "\"revault.RevaultSDK\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 5,
       "value": "\"app\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 11,
       "value": "\"questions\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 15,
       "value": "\"first_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 16,
       "value": "\"second_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 15,
       "value": "\"final_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 5,
       "value": "\"app\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 11,
       "value": "\"questions\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 15,
       "value": "\"first_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 16,
       "value": "\"second_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 15,
       "value": "\"final_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 24,
       "value": "\"rvt.last.feedback.date\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 27,
       "value": "\"rvt.last.feedback.version\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 599,
       "length": 30,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 651,
       "length": 53,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 676,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 703,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
       "offset": 1198,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
       "offset": 1283,
       "length": 10,
