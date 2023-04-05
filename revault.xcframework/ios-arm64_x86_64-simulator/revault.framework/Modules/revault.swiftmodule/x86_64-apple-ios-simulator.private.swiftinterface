@@ -26,6 +26,10 @@ public struct Authorization : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public protocol Feedbackable {
+  func start()
+  func didFinish()
+}
 @objc final public class RevaultSDK : ObjectiveC.NSObject {
   final public var configuration: revault.Configuration {
     get
@@ -41,10 +45,11 @@ public struct StageConfiguration : Swift.Codable {
 }
 public class StoreFeedbackManager {
   public static let shared: revault.StoreFeedbackManager
-  public var lastFeedbackDate: Foundation.Date? {
+  public var lastPresentationDate: Foundation.Date? {
     get
+    set
   }
-  public var lastFeedbackVersion: Swift.String? {
+  public var lastPresentationVersion: Swift.String? {
     get
   }
   public var shouldAskForFeedback: Swift.Bool
@@ -65,8 +70,15 @@ public enum StoreFeedbackStep {
     get
   }
 }
+public struct ExtraInfo {
+  public var email: Swift.String?
+  public var phone: Swift.String?
+  public var user_id: Swift.String?
+  public init(email: Swift.String? = nil, phone: Swift.String? = nil, user_id: Swift.String? = nil)
+}
 public struct StoreFeedbackConfiguration {
   public var stage: Swift.String
+  public var userData: revault.ExtraInfo?
   public var stepConfiguration: [revault.StoreFeedBackItem]!
   public init(stage: Swift.String)
 }

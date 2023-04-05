@@ -805,6 +805,62 @@
         "moduleName": "revault"
       },
       {
+        "kind": "TypeDecl",
+        "name": "Feedbackable",
+        "printedName": "Feedbackable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7revault12FeedbackableP5startyyF",
+            "mangledName": "$s7revault12FeedbackableP5startyyF",
+            "moduleName": "revault",
+            "genericSig": "<τ_0_0 where τ_0_0 : revault.Feedbackable>",
+            "sugared_genericSig": "<Self where Self : revault.Feedbackable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFinish",
+            "printedName": "didFinish()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7revault12FeedbackableP9didFinishyyF",
+            "mangledName": "$s7revault12FeedbackableP9didFinishyyF",
+            "moduleName": "revault",
+            "genericSig": "<τ_0_0 where τ_0_0 : revault.Feedbackable>",
+            "sugared_genericSig": "<Self where Self : revault.Feedbackable>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7revault12FeedbackableP",
+        "mangledName": "$s7revault12FeedbackableP",
+        "moduleName": "revault",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1433,8 +1489,8 @@
           },
           {
             "kind": "Var",
-            "name": "lastFeedbackDate",
-            "printedName": "lastFeedbackDate",
+            "name": "lastPresentationDate",
+            "printedName": "lastPresentationDate",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1452,8 +1508,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7revault20StoreFeedbackManagerC04lastC4Date10Foundation0F0VSgvp",
-            "mangledName": "$s7revault20StoreFeedbackManagerC04lastC4Date10Foundation0F0VSgvp",
+            "usr": "s:7revault20StoreFeedbackManagerC20lastPresentationDate10Foundation0G0VSgvp",
+            "mangledName": "$s7revault20StoreFeedbackManagerC20lastPresentationDate10Foundation0G0VSgvp",
             "moduleName": "revault",
             "declAttributes": [
               "AccessControl"
@@ -1480,17 +1536,66 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7revault20StoreFeedbackManagerC04lastC4Date10Foundation0F0VSgvg",
-                "mangledName": "$s7revault20StoreFeedbackManagerC04lastC4Date10Foundation0F0VSgvg",
+                "usr": "s:7revault20StoreFeedbackManagerC20lastPresentationDate10Foundation0G0VSgvg",
+                "mangledName": "$s7revault20StoreFeedbackManagerC20lastPresentationDate10Foundation0G0VSgvg",
                 "moduleName": "revault",
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault20StoreFeedbackManagerC20lastPresentationDate10Foundation0G0VSgvs",
+                "mangledName": "$s7revault20StoreFeedbackManagerC20lastPresentationDate10Foundation0G0VSgvs",
+                "moduleName": "revault",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault20StoreFeedbackManagerC20lastPresentationDate10Foundation0G0VSgvM",
+                "mangledName": "$s7revault20StoreFeedbackManagerC20lastPresentationDate10Foundation0G0VSgvM",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "lastFeedbackVersion",
-            "printedName": "lastFeedbackVersion",
+            "name": "lastPresentationVersion",
+            "printedName": "lastPresentationVersion",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1508,8 +1613,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7revault20StoreFeedbackManagerC04lastC7VersionSSSgvp",
-            "mangledName": "$s7revault20StoreFeedbackManagerC04lastC7VersionSSSgvp",
+            "usr": "s:7revault20StoreFeedbackManagerC23lastPresentationVersionSSSgvp",
+            "mangledName": "$s7revault20StoreFeedbackManagerC23lastPresentationVersionSSSgvp",
             "moduleName": "revault",
             "declAttributes": [
               "AccessControl"
@@ -1536,8 +1641,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7revault20StoreFeedbackManagerC04lastC7VersionSSSgvg",
-                "mangledName": "$s7revault20StoreFeedbackManagerC04lastC7VersionSSSgvg",
+                "usr": "s:7revault20StoreFeedbackManagerC23lastPresentationVersionSSSgvg",
+                "mangledName": "$s7revault20StoreFeedbackManagerC23lastPresentationVersionSSSgvg",
                 "moduleName": "revault",
                 "accessorKind": "get"
               }
@@ -2137,6 +2242,416 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ExtraInfo",
+        "printedName": "ExtraInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7revault9ExtraInfoV5emailSSSgvp",
+            "mangledName": "$s7revault9ExtraInfoV5emailSSSgvp",
+            "moduleName": "revault",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV5emailSSSgvg",
+                "mangledName": "$s7revault9ExtraInfoV5emailSSSgvg",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV5emailSSSgvs",
+                "mangledName": "$s7revault9ExtraInfoV5emailSSSgvs",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV5emailSSSgvM",
+                "mangledName": "$s7revault9ExtraInfoV5emailSSSgvM",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phone",
+            "printedName": "phone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7revault9ExtraInfoV5phoneSSSgvp",
+            "mangledName": "$s7revault9ExtraInfoV5phoneSSSgvp",
+            "moduleName": "revault",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV5phoneSSSgvg",
+                "mangledName": "$s7revault9ExtraInfoV5phoneSSSgvg",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV5phoneSSSgvs",
+                "mangledName": "$s7revault9ExtraInfoV5phoneSSSgvs",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV5phoneSSSgvM",
+                "mangledName": "$s7revault9ExtraInfoV5phoneSSSgvM",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "user_id",
+            "printedName": "user_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7revault9ExtraInfoV7user_idSSSgvp",
+            "mangledName": "$s7revault9ExtraInfoV7user_idSSSgvp",
+            "moduleName": "revault",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV7user_idSSSgvg",
+                "mangledName": "$s7revault9ExtraInfoV7user_idSSSgvg",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV7user_idSSSgvs",
+                "mangledName": "$s7revault9ExtraInfoV7user_idSSSgvs",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault9ExtraInfoV7user_idSSSgvM",
+                "mangledName": "$s7revault9ExtraInfoV7user_idSSSgvM",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(email:phone:user_id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExtraInfo",
+                "printedName": "revault.ExtraInfo",
+                "usr": "s:7revault9ExtraInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7revault9ExtraInfoV5email5phone7user_idACSSSg_A2Gtcfc",
+            "mangledName": "$s7revault9ExtraInfoV5email5phone7user_idACSSSg_A2Gtcfc",
+            "moduleName": "revault",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7revault9ExtraInfoV",
+        "mangledName": "$s7revault9ExtraInfoV",
+        "moduleName": "revault",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "StoreFeedbackConfiguration",
         "printedName": "StoreFeedbackConfiguration",
         "children": [
@@ -2219,6 +2734,116 @@
                 "declKind": "Accessor",
                 "usr": "s:7revault26StoreFeedbackConfigurationV5stageSSvM",
                 "mangledName": "$s7revault26StoreFeedbackConfigurationV5stageSSvM",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userData",
+            "printedName": "userData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "revault.ExtraInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExtraInfo",
+                    "printedName": "revault.ExtraInfo",
+                    "usr": "s:7revault9ExtraInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7revault26StoreFeedbackConfigurationV8userDataAA9ExtraInfoVSgvp",
+            "mangledName": "$s7revault26StoreFeedbackConfigurationV8userDataAA9ExtraInfoVSgvp",
+            "moduleName": "revault",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "revault.ExtraInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExtraInfo",
+                        "printedName": "revault.ExtraInfo",
+                        "usr": "s:7revault9ExtraInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault26StoreFeedbackConfigurationV8userDataAA9ExtraInfoVSgvg",
+                "mangledName": "$s7revault26StoreFeedbackConfigurationV8userDataAA9ExtraInfoVSgvg",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "revault.ExtraInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExtraInfo",
+                        "printedName": "revault.ExtraInfo",
+                        "usr": "s:7revault9ExtraInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault26StoreFeedbackConfigurationV8userDataAA9ExtraInfoVSgvs",
+                "mangledName": "$s7revault26StoreFeedbackConfigurationV8userDataAA9ExtraInfoVSgvs",
+                "moduleName": "revault",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7revault26StoreFeedbackConfigurationV8userDataAA9ExtraInfoVSgvM",
+                "mangledName": "$s7revault26StoreFeedbackConfigurationV8userDataAA9ExtraInfoVSgvM",
                 "moduleName": "revault",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3174,296 +3799,296 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Configuration\/RevaultConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Configuration\/RevaultConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 282,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackQuestionView.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackQuestionView.swift",
       "kind": "BooleanLiteral",
       "offset": 359,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 126,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 6,
       "value": "\"http\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 126,
       "length": 7,
       "value": "\"https\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 6,
       "value": "\"http\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 11,
       "value": "\"localhost\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 27,
       "value": "\"revault-api.herokuapp.com\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 11,
       "value": "\"localhost\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Networking\/Endpoint.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 27,
       "value": "\"revault-api.herokuapp.com\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/Authorization.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/Authorization.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 7,
       "value": "\"scope\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/Authorization.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/Authorization.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 5,
       "value": "\"app\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/Authorization.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/Authorization.swift",
       "kind": "StringLiteral",
       "offset": 237,
       "length": 7,
       "value": "\"scope\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/Authorization.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/Authorization.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 5,
       "value": "\"app\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/RevaultSDK.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/RevaultSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 220,
+      "offset": 226,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/RevaultSDK.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/RevaultSDK.swift",
       "kind": "StringLiteral",
-      "offset": 38,
+      "offset": 44,
       "length": 10,
       "value": "\"revault.RevaultSDK\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 5,
       "value": "\"app\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 11,
       "value": "\"questions\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 15,
       "value": "\"first_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 16,
       "value": "\"second_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 15,
       "value": "\"final_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 472,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 5,
       "value": "\"app\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 524,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 553,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 11,
       "value": "\"questions\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 626,
       "length": 15,
       "value": "\"first_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 16,
       "value": "\"second_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Model\/StageConfiguration.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Model\/StageConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 15,
       "value": "\"final_message\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 171,
-      "length": 24,
-      "value": "\"rvt.last.feedback.date\""
+      "offset": 175,
+      "length": 23,
+      "value": "\"rvt.last.present.date\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 241,
-      "length": 27,
-      "value": "\"rvt.last.feedback.version\""
+      "offset": 249,
+      "length": 26,
+      "value": "\"rvt.last.present.version\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 599,
+      "offset": 644,
       "length": 30,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 628,
+      "offset": 673,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 651,
+      "offset": 696,
       "length": 53,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 721,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 703,
+      "offset": 748,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 759,
+      "offset": 804,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
-      "offset": 1198,
+      "offset": 1387,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework ⚡️\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 1283,
+      "offset": 1472,
       "length": 10,
       "value": "\"feedback\""
     }
