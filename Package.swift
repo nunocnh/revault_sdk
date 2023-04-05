@@ -6,20 +6,16 @@ import PackageDescription
 let package = Package(
     name: "revault",
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "revault",
             targets: ["revault"]),
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
-    ],
+    dependencies: [],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "revault",
                       url: "https://github.com/nunocnh/revault_sdk/blob/master/revault.xcframework.zip?raw=true",
-                      checksum: "5778d06bb049790f2fecdd21c93a591168659dbbe74a5ef49b129683fa5c0436"),
+                      checksum: "b48db18450e8d0dafca459eb152648f62100a4b4c8a5204a80fb4e0947693a7b"),
     ]
 )
