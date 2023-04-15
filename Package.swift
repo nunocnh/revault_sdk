@@ -16,6 +16,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(name: "revault",
                       url: "https://github.com/nunocnh/revault_sdk/blob/master/revault.xcframework.zip?raw=true",
-                      checksum: "3b5d6f1b66056d37db464edaaf86e71ea65cf84cbeb276af36c9ff53f8a5349c"),
+                      checksum: "9fa53948a6236f81a69e192717f9c849c2be32e3d590a5b777054b5644b2237b"),
     ]
 )

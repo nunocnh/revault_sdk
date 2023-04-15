@@ -288,6 +288,7 @@ SWIFT_CLASS("_TtC7revault10RevaultSDK")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
 #endif
 #if defined(__cplusplus)
 #endif

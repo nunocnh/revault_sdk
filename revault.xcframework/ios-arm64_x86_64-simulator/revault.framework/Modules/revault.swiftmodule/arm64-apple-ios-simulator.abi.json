@@ -6,6 +6,16 @@
     "children": [
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "revault",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3716,6 +3726,55 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/UITextview+RVT.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 14,
+      "value": "\"rvt-btn-done\""
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/UITextview+RVT.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/UITextview+RVT.swift",
+      "kind": "FloatLiteral",
+      "offset": 253,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/UITextview+RVT.swift",
+      "kind": "FloatLiteral",
+      "offset": 307,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/UITextview+RVT.swift",
+      "kind": "FloatLiteral",
+      "offset": 452,
+      "length": 4,
+      "value": "44.0"
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/UITextview+RVT.swift",
+      "kind": "BooleanLiteral",
+      "offset": 744,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/UITextview+RVT.swift",
+      "kind": "BooleanLiteral",
+      "offset": 945,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Networking\/Data Sharing\/StageConfigurationEndpoint.swift",
       "kind": "StringLiteral",
       "offset": 216,
@@ -3760,189 +3819,189 @@
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1196,
+      "offset": 1240,
       "length": 18,
       "value": "\"chevron.backward\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 1809,
       "length": 10,
       "value": "\"rvt-iron\""
-    },
-    {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1857,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1901,
       "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1945,
+      "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1958,
+      "offset": 2033,
       "length": 14,
       "value": "\"rvt-btn-send\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1983,
+      "offset": 2058,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2042,
+      "offset": 2117,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2097,
+      "offset": 2172,
       "length": 11,
       "value": "\"rvt-green\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2246,
+      "offset": 2321,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2307,
+      "offset": 2382,
       "length": 17,
       "value": "\"rvt-btn-not-now\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2335,
+      "offset": 2410,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2402,
+      "offset": 2477,
       "length": 10,
       "value": "\"rvt-iron\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2514,
+      "offset": 2589,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2658,
+      "offset": 2733,
       "length": 15,
       "value": "\"rvt-message-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2684,
+      "offset": 2759,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2780,
+      "offset": 2855,
       "length": 11,
       "value": "\"rvt-cta-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2802,
+      "offset": 2877,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "Array",
-      "offset": 2885,
+      "offset": 2960,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "Array",
-      "offset": 3200,
+      "offset": 3275,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3617,
+      "offset": 3692,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3627,
+      "offset": 3702,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3692,
+      "offset": 3767,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4008,
+      "offset": 4083,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4018,
+      "offset": 4093,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "Array",
-      "offset": 4034,
+      "offset": 4109,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4049,
+      "offset": 4124,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackMoreViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4175,
+      "offset": 4250,
       "length": 4,
       "value": "true"
     },
@@ -4607,247 +4666,233 @@
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 3344,
+      "offset": 3418,
       "length": 22,
       "value": "\"StoreFeedbackAskView\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
-      "offset": 3612,
+      "offset": 3644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 3881,
+      "offset": 3913,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
-      "offset": 4378,
+      "offset": 4410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
-      "offset": 4634,
+      "offset": 4666,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
-      "offset": 4899,
+      "offset": 4931,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4976,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "IntegerLiteral",
-      "offset": 5064,
+      "offset": 5177,
       "length": 7,
       "value": "2630000"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 5165,
+      "offset": 5278,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 5241,
+      "offset": 5354,
       "length": 10,
       "value": "\"feedback\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
-      "offset": 5490,
+      "offset": 5603,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 5647,
+      "offset": 5831,
       "length": 33,
       "value": "\"StoreFeedbackMoreViewController\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
-      "offset": 5857,
+      "offset": 5998,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 6021,
+      "offset": 6239,
       "length": 39,
       "value": "\"StoreFeedbackConclusionViewController\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "BooleanLiteral",
-      "offset": 6243,
+      "offset": 6412,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "IntegerLiteral",
-      "offset": 6517,
+      "offset": 6686,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 6549,
+      "offset": 6718,
       "length": 15,
       "value": "\"rvt-message-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 6575,
+      "offset": 6744,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 6672,
+      "offset": 6841,
       "length": 15,
       "value": "\"rvt-message-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 6698,
+      "offset": 6867,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "IntegerLiteral",
-      "offset": 6837,
+      "offset": 7006,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 6869,
+      "offset": 7038,
       "length": 15,
       "value": "\"rvt-message-2\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 6895,
+      "offset": 7064,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 6993,
+      "offset": 7162,
       "length": 15,
       "value": "\"rvt-message-2\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 7019,
+      "offset": 7188,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "IntegerLiteral",
-      "offset": 7159,
+      "offset": 7328,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 7191,
+      "offset": 7360,
       "length": 15,
       "value": "\"rvt-message-3\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 7217,
+      "offset": 7386,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 7314,
+      "offset": 7483,
       "length": 15,
       "value": "\"rvt-message-3\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 7340,
+      "offset": 7509,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "Array",
-      "offset": 7456,
+      "offset": 7625,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 7602,
-      "length": 11,
-      "value": "\"rvt-cta-1\""
-    },
-    {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
-      "kind": "StringLiteral",
-      "offset": 7624,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
-      "kind": "StringLiteral",
-      "offset": 7686,
-      "length": 11,
-      "value": "\"rvt-cta-2\""
-    },
-    {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
-      "kind": "StringLiteral",
-      "offset": 7708,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
-      "kind": "StringLiteral",
       "offset": 7771,
       "length": 11,
-      "value": "\"rvt-cta-3\""
+      "value": "\"rvt-cta-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
@@ -4859,21 +4904,49 @@
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 7950,
+      "offset": 7855,
+      "length": 11,
+      "value": "\"rvt-cta-2\""
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "kind": "StringLiteral",
+      "offset": 7877,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "kind": "StringLiteral",
+      "offset": 7940,
+      "length": 11,
+      "value": "\"rvt-cta-3\""
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "kind": "StringLiteral",
+      "offset": 7962,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
+      "kind": "StringLiteral",
+      "offset": 8119,
       "length": 10,
       "value": "\"rvt-il-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 8060,
+      "offset": 8229,
       "length": 10,
       "value": "\"rvt-il-2\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/StoreFeedback.swift",
       "kind": "StringLiteral",
-      "offset": 8171,
+      "offset": 8340,
       "length": 10,
       "value": "\"rvt-il-3\""
     },
@@ -4887,133 +4960,133 @@
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 1190,
       "length": 13,
       "value": "\"rvt-btn-yes\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 736,
+      "offset": 1214,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 794,
+      "offset": 1272,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 848,
+      "offset": 1326,
       "length": 11,
       "value": "\"rvt-green\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 995,
+      "offset": 1473,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1052,
+      "offset": 1530,
       "length": 12,
       "value": "\"rvt-btn-no\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1553,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1138,
+      "offset": 1616,
       "length": 10,
       "value": "\"rvt-iron\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1246,
+      "offset": 1724,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1382,
+      "offset": 1860,
       "length": 10,
       "value": "\"rvt-il-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1513,
+      "offset": 1991,
       "length": 15,
       "value": "\"rvt-message-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1539,
+      "offset": 2017,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1634,
+      "offset": 2112,
       "length": 11,
       "value": "\"rvt-cta-1\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1656,
+      "offset": 2134,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1762,
+      "offset": 2240,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1772,
+      "offset": 2250,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1788,
+      "offset": 2266,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "Array",
-      "offset": 1801,
+      "offset": 2279,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/itsector\/Documents\/Revault®\/Framework\/revault\/revault\/Revault Store Feedback\/Views\/StoreFeedbackAskViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1816,
+      "offset": 2294,
       "length": 4,
       "value": "true"
     }
